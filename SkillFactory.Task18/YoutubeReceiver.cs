@@ -19,9 +19,9 @@ namespace SkillFactory.Task18
             Console.WriteLine(title + description);
         }
 
-        public async Task DownloadVideo(string url, string filePath)
+        public async Task DownloadVideo(string url)
         {
-            await _youtubeClient.Videos.DownloadAsync(url, filePath);
+            await _youtubeClient.Videos.DownloadAsync(url, "filePath");
         }
     }
 }

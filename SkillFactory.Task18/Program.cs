@@ -11,9 +11,12 @@ namespace SkillFactory.Task18
             var receiver = new YoutubeReceiver();
 
             var command = new YoutubeDownloader(receiver);
+
+            Console.WriteLine("Укажите ссылку на видео");
+            string videoURL = Console.ReadLine();
             
             youtubeCommandSender.SetCommand(command);
-            youtubeCommandSender.DownloadVideo();
+            youtubeCommandSender.DownloadVideo(videoURL);
             youtubeCommandSender.GetNameAndDescription();
         }
     }

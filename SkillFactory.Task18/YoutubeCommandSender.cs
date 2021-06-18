@@ -13,9 +13,9 @@
         {
             _youtubeCommand.GetNameAndDescription();
         }
-        public void DownloadVideo()
+        public void DownloadVideo(string url)
         {
-            _youtubeCommand.DownloadVideo();
+            _youtubeCommand.DownloadVideo(url);
         }
     }
 }

@@ -15,10 +15,9 @@ namespace SkillFactory.Task18
         {
             youtubeReceiver.GetVideoInfo();
         }
-
-        public override void DownloadVideo()
+        public override void DownloadVideo(string url)
         {
-            youtubeReceiver.DownloadVideo(" ", "d");
+            youtubeReceiver.DownloadVideo(url);
         }
     }
 }
