@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "EVB9NhoPV7QznbgeFgaZcg3CVSBuk/K6H9D1l60op3oHnhpckPYXOmd5d+GpkvrCKT6ku9k7O4O2oRcUDWV2jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Анатолий\\RiderProjects\\SkillFactory.Task18\\SkillFactory.Task18\\SkillFactory.Task18.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Анатолий\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\youtubeexplode\\6.0.2\\youtubeexplode.6.0.2.nupkg.sha512",
+    "C:\\Users\\Анатолий\\.nuget\\packages\\youtubeexplode.converter\\2.1.0\\youtubeexplode.converter.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
