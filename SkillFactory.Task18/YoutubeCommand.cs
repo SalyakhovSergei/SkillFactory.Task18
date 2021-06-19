@@ -1,8 +1,10 @@
-﻿namespace SkillFactory.Task18
+﻿using System.Threading.Tasks;
+
+namespace SkillFactory.Task18
 {
     public abstract class YoutubeCommand
     {
-        public abstract void GetNameAndDescription();
-        public abstract void DownloadVideo(string url);
+        public abstract Task GetNameAndDescription(string url);
+        public abstract Task DownloadVideo(string url);
     }
 }

@@ -1,4 +1,5 @@
-﻿using YoutubeExplode.Search;
+﻿using System.Threading.Tasks;
+using YoutubeExplode.Search;
 using YoutubeExplode.Videos;
 
 namespace SkillFactory.Task18
@@ -11,13 +12,13 @@ namespace SkillFactory.Task18
         {
             this.youtubeReceiver = youtubeReceiver;
         }
-        public override void GetNameAndDescription()
+        public override async Task GetNameAndDescription(string url)
         {
-            youtubeReceiver.GetVideoInfo();
+            await youtubeReceiver.GetNameAndDescription(url);
         }
-        public override void DownloadVideo(string url)
+        public override async Task DownloadVideo(string url)
         {
-            youtubeReceiver.DownloadVideo(url);
+           await youtubeReceiver.DownloadVideo(url);
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace SkillFactory.Task18
+﻿using System.Threading.Tasks;
+
+namespace SkillFactory.Task18
 {
     public class YoutubeCommandSender
     {
@@ -9,13 +11,13 @@
             _youtubeCommand = youtubeCommand;
         }
 
-        public void GetNameAndDescription()
+        public async Task GetNameAndDescription(string url)
         {
-            _youtubeCommand.GetNameAndDescription();
+            await _youtubeCommand.GetNameAndDescription(url);
         }
-        public void DownloadVideo(string url)
+        public async Task DownloadVideo(string url)
         {
-            _youtubeCommand.DownloadVideo(url);
+            await _youtubeCommand.DownloadVideo(url);
         }
     }
 }

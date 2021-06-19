@@ -11,17 +11,18 @@ namespace SkillFactory.Task18
     {
         private YoutubeClient _youtubeClient = new YoutubeClient();
         
-        public async Task GetVideoInfo()
+        public async Task GetNameAndDescription(string url)
         {
-            var video = await _youtubeClient.Videos.GetAsync("www");
+            var video = await _youtubeClient.Videos.GetAsync(url);
             string title = video.Title;
             string description = video.Description;
             Console.WriteLine(title + description);
+            Console.WriteLine("link please");
         }
 
         public async Task DownloadVideo(string url)
         {
-            await _youtubeClient.Videos.DownloadAsync(url, "filePath");
+           await _youtubeClient.Videos.DownloadAsync(url, "C:/Users/admin/Desktop/task18/video.mp4");
         }
     }
 }
